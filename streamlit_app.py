@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the model
-model = pickle.load(open('DecisionTree.pkl', 'rb')) 
+model = pickle.load(open('NBClassifier.pkl', 'rb')) 
 
 # Define crop array
 crop_array = [
